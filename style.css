@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+canvas {
+  height: 80vh; 
+  width: 80vw; 
+  display: block;
+}
+
+.winner-game{
+ text-align: center;
+ font-size: 50px;
+ display: none;
+ /* position: absolute; */
+}
+
+#top_bar
+{
+position: absolute;
+left: 0;
+top: 0;
+width: 1000px;
+height: 70px;
+background-color:black;
+color: #fff;
+}
+
+u .top_bar_box
+{
+font-size: 50px;
+line-height: 60px;
+float: left;
+margin-left:20px;
+width: 250px;
+color: pink;
+}
+v .top_bar_box div
+{
+float: left;
+margin-right: 20px;
+}
